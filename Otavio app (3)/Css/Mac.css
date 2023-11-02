@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Sans-Serif;
+}
+
+body {
+  background-image: linear-gradient(to left top, black 30%, white);
+}
+
+header {
+  padding: 30px 0px;
+  background: black;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.navegacao .logo {
+  width: 70px;
+}
+
+.navegacao ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.navegacao ul li a {
+  color: white;
+  font-weight: 600;
+  padding-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  width: 40px;
+}
+
+.navegacao ul li a:hover {
+  color-interpolation: white;
+  border-bottom: 1px solid white;
+  color: rgb(0, 17, 253);
+}
+
+.navegacao .check {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+Display table-cell 
+
+
+
+.main-text {
+  width: 100rem;
+  margin-bottom: 1vh;
+  margin-left: 20px;
+  height: 1000px;
+
+}
+
+.main-text h3 {
+  font-size: 3.5rem;
+  margin-bottom: rem;
+  top: 0;
+  margin-left: 30px;
+}
+
+.main-text p {
+  margin-bottom: 1.5rem;
+  margin-left: 30px;
+
+}
+
+.main-text h6 {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 30px;
+}
+
+.main-texto h5 {
+  color: blue;
+}
+
+.main-texto h1 {
+  padding-bottom: 50px;
+  background: white;
+  color: black;
+}
+
+.main-img {
+  margin-left: 700px;
+  width: 500px;
+  margin-bottom: 0px;
+  height: 10px;
+  margin-inline-start: 890px;
+
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: rgb(23, 23, 204);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.main-text .btn:hover {
+  opacity: 85;
+  color: white;
+}
+
+.main-text .text h5 {
+  font-size: 1rem;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 9rem;
+}
+
+.main-text .content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-text .content span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px rgb(150, 144, 144);
+  transition: all 1.5s;
+  margin-left: 30px;
+}
+
+.content span:hover {
+  opacity: 80;
+}
+
+#Amarelo {
+  background: rgb(18, 18, 90);
+}
+
+#Branco {
+  background: white;
+}
+
+#Preto {
+  background: black;
+}
+
+#Azul {
+  background: blue;
+}
